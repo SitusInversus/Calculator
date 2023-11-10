@@ -36,6 +36,7 @@ Steps:
     e. Setting up all other functions to have a properly working calculator
 
     h. finding edge cases?
+        => divide a number by 0, the result "Infinity" gets displayed. Use "DEL" to remove parts and use any operand => NaN
 
 
 

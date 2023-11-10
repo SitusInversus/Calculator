@@ -49,6 +49,9 @@ allClearButton.addEventListener('click', () => {
 
 deleteButton.addEventListener('click', () => {
     if(currentOp.innerText === '') {
+        if (previousOp.innerText === 'Infinity') {
+            previousOp.innerText = ''
+        }
         previousOp.innerText = previousOp.innerText.slice(0,-1)
         operand = ''
         operandincluded = false
