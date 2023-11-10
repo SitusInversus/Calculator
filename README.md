@@ -20,8 +20,9 @@ Steps:
 
 4. to create the necessary JS code I will follow the given steps by "The Odin Project"
 
-    a. Create 4 functions which -add -subtract -multiply    -divide
+    a. Create 4 functions which -add -subtract -multiply -divide
 
     b. Create a function which takes 2 numbers and 1 operator to calculate the result
 
+    c. "Create the functions that populate the display when you click the number buttons. You should be storing the ‘display value’ in a variable somewhere for use in the next step."
     
