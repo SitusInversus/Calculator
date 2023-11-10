@@ -39,9 +39,6 @@ function operate(operand, a, b) {
 function cleanCurrentOp() {
     currentOp.innerText = '';
 }
-function cleanPreviousOp() {
-    previousOp.innerText = '';
-}
 
 allClearButton.addEventListener('click', () => {
     cleanCurrentOp()
@@ -51,7 +48,15 @@ allClearButton.addEventListener('click', () => {
 })
 
 deleteButton.addEventListener('click', () => {
-    currentOp.innerText = currentOp.innerText.slice(0,-1)
+    if(currentOp.innerText === '') {
+        previousOp.innerText = previousOp.innerText.slice(0,-1)
+        operand = ''
+        operandincluded = false
+        clickableButtons()
+    }  
+    else {
+        currentOp.innerText = currentOp.innerText.slice(0,-1)
+    }
 })
 
 numberButtons.forEach(numberButton => {
