@@ -24,5 +24,16 @@ Steps:
 
     b. Create a function which takes 2 numbers and 1 operator to calculate the result
 
-    c. "Create the functions that populate the display when you click the number buttons. You should be storing the ‘display value’ in a variable somewhere for use in the next step."
+    c. Wiring up all buttons in the HTML body with Js
+
+    d. Make userinput appear on the Display, when clicking buttons
+
+    e. Setting up all other functions to have a working calculator
+
+    h. finding edge cases?
+
+
+
+
+
     

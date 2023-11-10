@@ -58,6 +58,16 @@ numberButtons.forEach(numberButton => {
     numberButton.addEventListener('click',() => currentOp.append(numberButton.innerText)) 
 })
 
+function clickableButtons(node) {
+    if (operandincluded) {
+        operandButtons.forEach(opButton => opButton.style.color =  "rgb(194, 187, 187)")
+    }
+    else {
+        operandButtons.forEach(opButton => opButton.style.color =  "rgba(0, 0, 0, 0.75)")
+    
+    }
+}  
+
 operandButtons.forEach( operandButton => {
     operandButton.addEventListener('click', function() {
         if (!operandincluded) {
@@ -71,6 +81,7 @@ operandButtons.forEach( operandButton => {
             }
             operandincluded=true;
             operand=operandButton.innerText;
+            clickableButtons()
         }
 
      })
@@ -84,4 +95,5 @@ equalSignButton.addEventListener('click', function () {
         operand=''
         operandincluded=false;
     }
+    clickableButtons()
 })
