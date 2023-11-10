@@ -84,7 +84,8 @@ body {
 }
 button:hover {
     background-color: rgba(240, 244, 242, 0.913);
-    color: rgb(0, 255, 34);
+   /* color: rgb(0, 255, 34);
+   Hoover Function doesnt work because in JS color of buttons gets changed in the function clickabelButtons */
 }
 .row > .double-size {
     flex-grow: 3.7;
