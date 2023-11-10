@@ -1,0 +1,7 @@
+const numberButtons = document.querySelectorAll('[data-number]')
+const operandButtons = document.querySelectorAll('[data-operand]')
+const allClearButton = document.querySelector('[data-all-clear]')
+const deleteButton = document.querySelector('[data-delete]')
+const euqalSignButton = document.querySelector('[data-equal-sign]')
+const previousResult = document.querySelector('[data-previous-result]')
+const currentoperation = document.querySelector('[data-current-operation]')

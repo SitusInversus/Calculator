@@ -17,3 +17,11 @@ Steps:
 
 3. Using Grid to implement the surface of the Calculator would be a good solution but since at this point I havent learned it yet.
     Use CSS+Flexbox
+
+4. to create the necessary JS code I will follow the given steps by "The Odin Project"
+
+    a. Create 4 functions which -add -subtract -multiply    -divide
+
+    b. Create a function which takes 2 numbers and 1 operator to calculate the result
+
+    
