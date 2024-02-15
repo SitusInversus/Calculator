@@ -5,7 +5,7 @@ A project suggested by "The Odin Project"
 
 Steps:
 
-0. Write down the basics propertys of a simple! calculator
+0. Write down the basics propertys of a simple calculator
 
 1. Setup html, css and js files
 
